@@ -1,0 +1,53 @@
+{
+	"initial html": {
+		"prefix": "!",
+		"body": [
+			"<html lang='ja'>",
+			"<head>",
+			"\t<meta charset='UTF-8'>",
+			"\t<meta http-equiv='X-UA-Compatible' content='IE=edge'>",
+			"\t<meta name='viewport' content='width=device-width, initial-scale=1.0'>",
+			"\t<meta property='og:description' content='SNSでシェアされたときに表示するサイトの説明文'>",
+			"\t<meta property='og:title' content='SNSでシェアされたときに表示するサイトのタイトル'>",
+			"\t<meta property='og:image' content='SNSでシェアされたときに表示する画像※かならず絶対パスを記載（相対パス不可）https://....../img/icons/logo.png'>",
+			"\t<meta property='og:image:width' content='画像の幅px'>",
+			"\t<meta property='og:image:height' content='画像の高さpx'>",
+			"\t<meta property='og:type' content='urlがトップページの場合→website、トップページ以外の場合→article'>",
+			"\t<meta property='og:url' content='https://........'>",
+			"\t<link rel='apple-touch-icon' sizes='180x180' href='アップルタッチ用のファビコン.png'>",
+			"\t<link rel='icon' type='image/png' sizes='32x32' href='32サイズのファビコン画像.png'>",
+			"\t<link rel='icon' type='image/png' sizes='16x16' href='16サイズのファビコン画像.png'>",
+			"\t<link rel='manifest' href='PWA化のためのマニフェストファイル.webmanifest'>",
+			"\t<meta name='msapplication-TileColor' content='Windowsピン留めのテーマカラーを設定→#ffffff'>",
+			"\t<meta name='msapplication-TileImage' content='Windowsピン留め時の画像[絶対パス].png' />",
+			"\t<title>Document</title>",
+			"\t<meta name='description' content='検索結果でサイト名の下に表示される「サイトの説明文」'>",
+			"\t<meta name='theme-color' content='theme-colorを設定→#ffffff'>",
+			"\t<link rel='stylesheet' href='assets/css/style.min.css'>",
+			"</head>",
+			"<body>",
+			"\t<header>",
+			"",
+			"\t</header>",
+			"",
+			"\t<main>",
+			"",
+			"\t</main>",
+			"",
+			"\t<footer>",
+			"",
+			"\t</footer>",
+			"\t<script src='assets/js/main.js'></script>",
+			"</body>",
+			"</html>",
+		],
+		"description": "Setting up initial HTML Code"
+	},
+	"Write PHP tag": {
+		"prefix": "php",
+		"body": [
+			"<?php $1 ?>",
+		],
+		"description": "<?php ?>を出力。"
+	}
+}
